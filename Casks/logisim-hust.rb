@@ -8,8 +8,6 @@ cask 'logisim-hust' do
   name 'Logisim HUST'
   homepage 'https://github.com/colinaaa/homebrew-logisim-hust'
 
-  depends_on cask: 'openjdk'
-
   container type: :naked
 
   # shim script (https://github.com/Homebrew/homebrew-cask/issues/18809)
